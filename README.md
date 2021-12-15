@@ -6,7 +6,9 @@ This program provides a data pipeline that takes in all transaction data in a cs
 Getting Started
 
   - Prerequisites:
-    Download "transaction.csv" from Mint.com
+    Download "transactions.csv" from Mint.com
+    
+    ![export transactions.csv](/images/export_transactions)
     
   - Installation / Set up
     Set up Google Data Studio pipeline
