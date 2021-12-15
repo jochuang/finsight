@@ -18,8 +18,7 @@ Getting Started
     How to read a sample report?
     
   - Method:
-    This budgeting framework is inspired by the zero-based budgeting system, which is a method to allocate all money earned to expenses, savings, and investment. The net result is 
-    income minus expenditures equal zero, and every dollar has a purpose.
+    This budgeting framework is inspired by the zero-based budgeting system, which is a method to allocate all money earned to expenses, savings, and investment. The goal is to achieve net zero when subtracting expenditures from income, so that every dollar is allocated and has a purpose.
     I break down the main finance categories into 5 cateogries: Monthly Bills, living expense, discretionary spending, occasional spending, and savings    
 
 Documentation
