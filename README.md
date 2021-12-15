@@ -18,7 +18,8 @@ Getting Started
     How to read a sample report?
     
   - Method:
-    I'm influenced by the net-zero budget concept, and believe that every dollar should be allocated
+    This budgeting framework is inspired by the zero-based budgeting system, which is a method to allocate all money earned to expenses, savings, and investment. The net result is 
+    income minus expenditures equal zero, and every dollar has a purpose.
     I break down the main finance categories into 5 cateogries: Monthly Bills, living expense, discretionary spending, occasional spending, and savings    
 
 Documentation
