@@ -6,7 +6,7 @@ This program provides a data pipeline that takes in all transaction data in a cs
 Getting Started
 
   - Prerequisite:\
-    Download "transactions.csv" from Mint.com
+    Download "transactions.csv" from Mint.com and save it your project folder
     
     ![export transactions.csv](/images/export_transactions.PNG)
     
