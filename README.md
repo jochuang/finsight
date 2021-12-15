@@ -8,7 +8,7 @@ Getting Started
   - Prerequisites:
     Download "transactions.csv" from Mint.com
     
-    ![export transactions.csv](/images/export_transactions.png)
+    ![export transactions.csv](/images/export_transactions.PNG)
     
   - Installation / Set up
     Set up Google Data Studio pipeline
