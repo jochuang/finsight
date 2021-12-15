@@ -1,11 +1,11 @@
 # FinSight
-Project Overview:
+Project Overview:\
 FinSight is a finance dashboard that provides personal finance trends at a glance. It builds on top of personal finance app like Mint and allows more flexibility to customize charts and graphs that tailors to your needs.
 This program provides a data pipeline that takes in all transaction data in a csv format, cleans and transforms the data, and displays data in a dashboard for visualization. The goal is to better track transactions and visualize spending trends, which will lead to more informed financial decisions.
 
 Getting Started
 
-  - Prerequisites:
+  - Prerequisite:\
     Download "transactions.csv" from Mint.com
     
     ![export transactions.csv](/images/export_transactions.PNG)
@@ -15,8 +15,8 @@ Getting Started
     Sign into Google Sheet and open 4 spreadsheets
     Define category_dict, which is a dictionary of key (subcategory) to value (category) pairs
     
-  - Usage:
-    Run "python finsight-compiler.py"
+  - Usage:\
+    Run ```python finsight-compiler.py```\
     How to read a sample report?
     
   - Method:
