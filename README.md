@@ -1,7 +1,7 @@
 # FinSight
 
 FinSight is a finance dashboard that provides personal finance trends at a glance. It builds on top of personal finance app like Mint and allows customizable charts and graphs that tailors to your needs.
-This program provides a data pipeline that takes in all transaction data in a csv format, cleans and transforms the data, and displays data in a dashboard for visualization. The goal is to better track transactions and visualize spending trends, which will lead to more informed financial decisions.
+This program provides a data pipeline that takes in all transaction data in a csv format, cleans and transforms the data, and displays data in a dashboard. The goal is to track transactions, visualize spending trends, and ultimately to make more informed financial decisions.
 
 ### Table of Contents
    * [Getting Started](#getting-started)
