@@ -10,17 +10,22 @@ Getting Started
     
     ![export transactions.csv](/images/export_transactions.PNG)
   
-  <details>
-  <summary>Installation / Set up</summary>
-  - Upload data sources to Google Sheets
-  Go to Google Sheets Home > Click the file icon on the top-right corner > Click the Upload tab and drag csv file to the upload section
-  ![click file icon](images/gsheets_open_file_picker.PNG)
-  ![upload file](images/gsheets_upload_file.png)
+  - Installation / Set up\
+  Upload 4 data sources to Google Sheets:\
+  Go to Google Sheets Home > Click the file icon on the top-right corner\
+  ![click file icon](images/gsheets_open_file_picker.PNG)\
+  Click the Upload tab and drag csv file to the upload section\
+  ![upload file](images/gsheets_upload_file.png)\
+  Upload expenses_transaction.csv, ive_pie_chart.csv, ive_bar_graph.csv, income_transaction.csv
+  It should look like this:\
+  ![gsheets](images/gsheets_files.PNG)\
   
+  
+ 
     Set up Google Data Studio pipeline
     Sign into Google Sheet and open 4 spreadsheets
     Define category_dict, which is a dictionary of key (subcategory) to value (category) pairs
-  </details>  
+<!--   </details>   -->
   
   - Usage:\
     Run ```python finsight-compiler.py```\
