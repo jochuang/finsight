@@ -89,7 +89,7 @@ Define category_dict, which is a dictionary of key (subcategory) to value (categ
 </details>
 
 ## Run <a name="run"></a>
-  Run ```python finsight-compiler.py```  
+  Run ```python finsight-compiler.py``` in the terminal
   
 ## Usage <a name="usage"></a>
 
