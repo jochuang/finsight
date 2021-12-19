@@ -9,12 +9,17 @@ Getting Started
     Download "transactions.csv" from Mint.com and save it your project folder
     
     ![export transactions.csv](/images/export_transactions.PNG)
-    
-  - Installation / Set up
+  
+  <details>
+  <summary>Installation / Set up</summary>
+  - Upload data sources to Google Sheets
+  Go to Google Sheets Home > Click the file icon on the top-right corner > Click the Upload tab and drag csv file to the upload section
+  
     Set up Google Data Studio pipeline
     Sign into Google Sheet and open 4 spreadsheets
     Define category_dict, which is a dictionary of key (subcategory) to value (category) pairs
-    
+  </details>  
+  
   - Usage:\
     Run ```python finsight-compiler.py```\
     How to read a sample report?
