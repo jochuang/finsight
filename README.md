@@ -11,20 +11,24 @@ Getting Started
     ![export transactions.csv](/images/export_transactions.PNG)
   
   - Installation / Set up\
-  Upload 4 data sources to Google Sheets:\
+  1. Upload 4 data sources to Google Sheets:\
   Go to Google Sheets Home > Click the file icon on the top-right corner > Click the Upload tab and drag csv file to the upload section > Upload all (4) csv files
 <!--   ![click file icon](images/gsheets_open_file_picker.PNG)\ -->
 <!--   ![upload file](images/gsheets_upload_file.png)\ -->
   Your Google Sheet Home should look something like this:\
-  ![gsheets](images/gsheets_files.PNG)\
+  ![gsheets](images/gsheets_files.PNG)
   
-  Upload Data Sources to Google Data Studio:\
+ 2. Connect Data Sources to Google Data Studio:\
   Go to Goolge Data Studio > Click create on the top-left corner > Click Google Sheets > Select the Spreadsheet that you just uploaded > Hit Connect\
   Do this (4) times for each of the spreadsheet
   Your Data Studio Data Srouces should look something like this:\
-  (Note: please make sure the name of the data sources are exactly identical as shown here. If it isn't, you can rename it)
-  ![gstudio](images/gstudio_files.PNG)\
+  (Note: please make sure the name of the data sources are exactly identical as shown here. If it isn't, you can rename it)\
+  ![gstudio](images/gstudio_files.PNG)
   
+  3. Make a Copy of the Data Studio Dashboard
+  Use the provided dashborad link > Click on the three-dot icon on the top-right corner > Click "Make a Copy" > Under New 
+  Data Source > Select the (4) Data Sources that were connected
+  ![gstudio](images/gstudio_copy_report.PNG)
   
   
  
