@@ -12,13 +12,19 @@ Getting Started
   
   - Installation / Set up\
   Upload 4 data sources to Google Sheets:\
-  Go to Google Sheets Home > Click the file icon on the top-right corner\
-  ![click file icon](images/gsheets_open_file_picker.PNG)\
-  Click the Upload tab and drag csv file to the upload section\
-  ![upload file](images/gsheets_upload_file.png)\
-  Upload expenses_transaction.csv, ive_pie_chart.csv, ive_bar_graph.csv, income_transaction.csv
-  It should look like this:\
+  Go to Google Sheets Home > Click the file icon on the top-right corner > Click the Upload tab and drag csv file to the upload section > Upload all (4) csv files
+<!--   ![click file icon](images/gsheets_open_file_picker.PNG)\ -->
+<!--   ![upload file](images/gsheets_upload_file.png)\ -->
+  Your Google Sheet Home should look something like this:\
   ![gsheets](images/gsheets_files.PNG)\
+  
+  Upload Data Sources to Google Data Studio:\
+  Go to Goolge Data Studio > Click create on the top-left corner > Click Google Sheets > Select the Spreadsheet that you just uploaded > Hit Connect\
+  Do this (4) times for each of the spreadsheet
+  Your Data Studio Data Srouces should look something like this:\
+  (Note: please make sure the name of the data sources are exactly identical as shown here. If it isn't, you can rename it)
+  ![gstudio](images/gstudio_files.PNG)\
+  
   
   
  
