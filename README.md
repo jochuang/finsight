@@ -25,6 +25,7 @@ This program provides a data pipeline that takes in all transaction data in a cs
    
   Download "transactions.csv" from [Mint.com](https://mint.intuit.com/) and save it to your project folder.
   <details><summary>Example</summary>
+  
   ![export transactions.csv](/images/export_transactions.PNG)
   </details>
   
@@ -87,7 +88,22 @@ This program provides a data pipeline that takes in all transaction data in a cs
 
 <details>
   <summary><b>5. Define</b> <code>category_dict.py</code></summary>
-Define category_dict, which is a dictionary of key (subcategory) to value (category) pairs
+  <code>category_dict.py</code> defines a dictionary of key (subcategory) to value (category) pairs. For example:
+  <pre><code>
+  category_dict = {
+    'Groceries':'Living Expense',
+    'Transportation':'Living Expense',
+    'Internet':'Monthly Bills',
+    'Utilities':'Monthly Bills',
+    'Rent':'Monthly Bills',
+    'Investment - Source 1': 'Savings',
+    'Investment - Source 2': 'Savings',
+    'Paycheck - Source 1': 'Income',
+    'Paycheck - Source 2': 'Income',
+    'Restaurants':'Discretionary Spending',
+    'Vacation': 'Occasional Expense'
+}
+  </code></pre>
 </details>
 
 ## Run <a name="run"></a>
@@ -95,7 +111,7 @@ Define category_dict, which is a dictionary of key (subcategory) to value (categ
   
 ## Usage <a name="usage"></a>
 
-  How to read a sample report?
+  Reading a sample report...
     
 ## Framework <a name="framework"></a>
   This budgeting framework is inspired by the zero-based budgeting system, which is a method to allocate all money earned to expenses, savings, and investment.  
@@ -104,8 +120,8 @@ Define category_dict, which is a dictionary of key (subcategory) to value (categ
 
 ## Documentation <a name="documentation"></a>
 
-  - Troubleshooting
-  - Changelog
+  - Troubleshooting - to be continued
+  - Changelog - N/A
 
 
 
