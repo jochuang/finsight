@@ -9,7 +9,7 @@ This program provides a data pipeline that takes in all transaction data in a cs
       * [Set Up](#set-up)
       * [Run](#run)
    * [Usage](#usage)
-   * [Framework](framework)
+   * [Framework](#framework)
    * [Documentation](#documentation)
       
 
@@ -40,28 +40,29 @@ This program provides a data pipeline that takes in all transaction data in a cs
 
 <details>
   <summary><b>2. Connect Data Sources to Google Data Studio</b></summary>
-  Go to Goolge Data Studio > Click create on the top-left corner > Click Google Sheets > Select the Spreadsheet that you just uploaded > Hit Connect  
-  Do this (4) times for each of the spreadsheet.
+  Go to Google Data Studio > Click create on the top-left corner > Click Google Sheets > Select the Spreadsheet that you just uploaded > Click Connect  
+  
+  Do this (4) times for each of the spreadsheet.  
   
   Your Data Studio Data sources should look something like this:  
   ![gstudio](images/gstudio_files.PNG)  
-  (Note: please make sure the name of the data sources are exactly identical as shown here. If it isn't, you can rename it)
+  >Note: please make sure the name of the data sources are exactly identical as shown here. If it isn't, you can rename it
 </details>
  
 <details>
   <summary><b>3. Make a Copy of Data Studio Dashboard</b></summary>
-  Use the provided dashborad link > Click on the three-vertical-dot icon on the top-right corner > Click "Make a Copy" > Under New 
+  Use the provided dashboard link > Click on the three-vertical-dot icon on the top-right corner > Click "Make a Copy" > Under New 
   Data Source > Select the (4) Data Sources that were connected > Click "Copy Report"  
   
-  The pop-up window for "Copy this Report" should look somehting like this:
+  The pop-up window for "Copy this Report" should look something like this:
   ![gstudio](images/gstudio_copy_report.PNG)  
-  (Note: Google Data Studio is still in its infancy, and some of the functionality can be a bit finicky. You may have to play around with the dashboard objects to get the configuration to work)
+  >Note: Google Data Studio is still in its infancy, and some of the functionality can be a bit finicky. You may have to play around with the dashboard objects to get the configuration to work
 </details>
   
 <details>
-  <summary><b>4. Set up data pipeline via API (automate csv file upload to Goole Sheets)</b></summary>
-  To interact with Google Sheets API, you will need to set up authentication on Goolge Cloud Platform. Since we want to automate the data upload pipeline, we will be accesssing the spreadsheet on behalf of a bot.  
-  For this, just follow the instructions for <a href="https://docs.gspread.org/en/latest/oauth2.html#enable-api-access-for-a-project">using a service account</a>. This <a href="https://medium.com/craftsmenltd/from-csv-to-google-sheet-using-python-ef097cb014f9">medium article</a> also provids step-by-step instructions for setting up authentication.  
+  <summary><b>4. Set up data pipeline via API (automate csv file upload to Google Sheets)</b></summary>
+  To interact with Google Sheets API, you will need to set up authentication on Google Cloud Platform. Since we want to automate the data upload pipeline, we will be accessing the spreadsheet on behalf of a bot.  
+  For this, just follow the instructions for <a href="https://docs.gspread.org/en/latest/oauth2.html#enable-api-access-for-a-project">using a service account</a>. This <a href="https://medium.com/craftsmenltd/from-csv-to-google-sheet-using-python-ef097cb014f9">medium article</a> also provides step-by-step instructions for setting up authentication.  
   
   Once service account credential is created, it will automatically create a JSON file that looks like this:  
   <pre><code>
@@ -78,7 +79,7 @@ This program provides a data pipeline that takes in all transaction data in a cs
   Keep in mind:  
   <ul>
     <li>Share spreadsheet access with the client email (from the credentials.json file) with edit permission</li>
-    <li>Rename JSON file to <code>service_account.json</code> and store it in the desired path. For windows, it's recommended to store it in <code>%APPDATA%\gspread\service_account.json</code>.  
+    <li>Rename JSON file to <code>service_account.json</code> and store it in the desired path. For windows, it's recommended to store it in <code>%APPDATA%\gspread\service_account.json</code></li>
     <li>Update <code>finsight-compiler.py</code> to reference where the <code>service_account.json</code> is stored</li>
   </ul>
   <pre><code>
@@ -116,7 +117,7 @@ This program provides a data pipeline that takes in all transaction data in a cs
 ## Framework <a name="framework"></a>
   This budgeting framework is inspired by the zero-based budgeting system, which is a method to allocate all money earned to expenses, savings, and investment.  
   The goal is to achieve net zero when subtracting expenditures from income, so that every dollar is allocated and has a purpose.  
-  I break down the main finance categories into 5 cateogries: Monthly Bills, living expense, discretionary spending, occasional spending, and savings.    
+  I break down the main finance categories into 5 categories: Monthly Bills, living expense, discretionary spending, occasional spending, and savings.    
 
 ## Documentation <a name="documentation"></a>
 
