@@ -23,9 +23,11 @@ This program provides a data pipeline that takes in all transaction data in a cs
    pip install oauth2client
    </code></pre>
    
-  Download "transactions.csv" from [Mint.com](https://mint.intuit.com/) and save it to your project folder
+  Download "transactions.csv" from [Mint.com](https://mint.intuit.com/) and save it to your project folder.
+  <details><summary>Example</summary>
   ![export transactions.csv](/images/export_transactions.PNG)
-    
+  </details>
+  
 ## Set Up <a name="set-up"></a>
 <details>
   <summary><b>1. Upload data sources to Google Sheets</b></summary>
