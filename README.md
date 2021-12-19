@@ -14,7 +14,8 @@ Getting Started
   <summary>Installation / Set up</summary>
   - Upload data sources to Google Sheets
   Go to Google Sheets Home > Click the file icon on the top-right corner > Click the Upload tab and drag csv file to the upload section
-  ![click file icon](/images/gsheets_open_file_picker.PNG)
+  ![click file icon](images/gsheets_open_file_picker.PNG)
+  ![upload file](images/gsheets_upload_file.png)
   
     Set up Google Data Studio pipeline
     Sign into Google Sheet and open 4 spreadsheets
