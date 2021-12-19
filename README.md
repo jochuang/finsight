@@ -112,7 +112,7 @@ This program provides a data pipeline that takes in all transaction data in a cs
   
 ## Usage <a name="usage"></a>
 
-  Reading a sample report...
+  Reading a sample report...to be continued
     
 ## Framework <a name="framework"></a>
   This budgeting framework is inspired by the zero-based budgeting system, which is a method to allocate all money earned to expenses, savings, and investment.  
@@ -122,7 +122,7 @@ This program provides a data pipeline that takes in all transaction data in a cs
 ## Documentation <a name="documentation"></a>
 
   - Troubleshooting - to be continued
-  - Changelog - N/A
+  - Changelog
 
 
 
