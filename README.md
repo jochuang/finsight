@@ -26,10 +26,14 @@ Getting Started
   ![gstudio](images/gstudio_files.PNG)
   
   3. Make a Copy of the Data Studio Dashboard
-  Use the provided dashborad link > Click on the three-dot icon on the top-right corner > Click "Make a Copy" > Under New 
-  Data Source > Select the (4) Data Sources that were connected
+  Use the provided dashborad link > Click on the three-vertical-dot icon on the top-right corner > Click "Make a Copy" > Under New 
+  Data Source > Select the (4) Data Sources that were connected > Click "Copy Report
   ![gstudio](images/gstudio_copy_report.PNG)
   
+  (Note: Google Data Studio is still in its infancy, and some of the functionality can be a bit finicky. You may have to play around with the dashboard objects to get the configuration to work)
+  
+  4. Set up data pipeline via API (automate csv file upload to Goole Sheets)
+  Using python library gspread. Documentation:
   
  
     Set up Google Data Studio pipeline
