@@ -54,7 +54,7 @@ This application provides a data pipeline that takes in all transaction data in 
   
   The pop-up window for "Copy this Report" should look something like this:
   ![gstudio](images/gstudio_copy_report.PNG)  
-  >Note: Google Data Studio is still in its infancy, and some of the functionality can be a bit finicky. You may have to play around with the dashboard objects to get the configuration to work
+  >Note: Google Data Studio is still in its infancy, and some of the functionality can be a bit finicky. You may have to play around with the configuration of the dashboard objects to get data to display correctly. See [Troubleshooting](#troubleshooting) section below for more information.
 </details>
   
 <details>
@@ -119,7 +119,8 @@ This application provides a data pipeline that takes in all transaction data in 
 
 ## Documentation <a name="documentation"></a>
 
-  - Troubleshooting - to be continued
+  - Troubleshooting <a name="troubleshooting"></a> 
+    - to be continued
   - Changelog
 
 
