@@ -18,9 +18,7 @@ This program provides a data pipeline that takes in all transaction data in a cs
 
 ## Prerequisite <a name="prerequisite"></a>
    <pre><code>
-   pip install pandas
-   pip install gspread
-   pip install oauth2client
+   pip install -r requirements.txt
    </code></pre>
    
   Download "transactions.csv" from [Mint.com](https://mint.intuit.com/) and save it to your project folder.
