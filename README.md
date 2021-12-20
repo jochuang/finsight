@@ -37,18 +37,18 @@ This program provides a data pipeline that takes in all transaction data in a cs
 </details>
 
 <details>
-  <summary><b>2. Connect Data Sources to Google Data Studio</b></summary>
+  <summary><b>2. Connect data sources to Google Data Studio</b></summary>
   Go to Google Data Studio > Click create on the top-left corner > Click Google Sheets > Select the Spreadsheet that you just uploaded > Click Connect  
   
   Do this (4) times for each of the spreadsheet.  
   
-  Your Data Studio Data sources should look something like this:  
+  Your Data Studio data sources should look something like this:  
   ![gstudio](images/gstudio_files.PNG)  
   >Note: please make sure the name of the data sources are exactly identical as shown here. If it isn't, you can rename it
 </details>
  
 <details>
-  <summary><b>3. Make a Copy of Data Studio Dashboard</b></summary>
+  <summary><b>3. Make a copy of Data Studio Dashboard</b></summary>
   Use the provided dashboard link > Click on the three-vertical-dot icon on the top-right corner > Click "Make a Copy" > Under New 
   Data Source > Select the (4) Data Sources that were connected > Click "Copy Report"  
   
