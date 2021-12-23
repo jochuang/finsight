@@ -110,7 +110,7 @@ This application provides a data pipeline that takes in all transaction data in 
   
 ## Usage <a name="usage"></a>
 
-  Reading a sample report...to be continued
+  Use the drop-down menu located on the top of the dashboard, to filter desired date range, category, and sub-category to focus in on different views.
     
 ## Framework <a name="framework"></a>
   This budgeting framework is inspired by the zero-based budgeting system, which is a method to allocate all money earned to expenses, savings, and investment.  
@@ -120,7 +120,10 @@ This application provides a data pipeline that takes in all transaction data in 
 ## Documentation <a name="documentation"></a>
 
   - Troubleshooting <a name="troubleshooting"></a> 
-    - to be continued
+    - If "no data" is displayed in an object, you can try refreshing the page to ensure connection loads. If after a few refreshes, the dashboard object still doesn't display correctly, you may have to reconfigure the object.
+    - For example: to configure "income vs. expense trend," ensure the correct data source is selected.
+
+
   - Changelog
 
 
