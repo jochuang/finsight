@@ -1,0 +1,153 @@
+date,category,sub-category,description,amount
+2021-08-27,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-08-20,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-08-13,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-08-08,Income,Interest Income,Ally Interest Paid,3.1
+2021-08-08,Income,Interest Income,Ally Interest Paid,0.33
+2021-08-06,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-08-02,Income,Cash Back Rewards,Cash Back Rewards,26.24
+2021-07-30,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-07-30,Income,Refund,Refund,22.15
+2021-07-23,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-07-16,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-07-09,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-07-08,Income,Interest Income,Ally Interest Paid,3.0
+2021-07-08,Income,Interest Income,Ally Interest Paid,0.45
+2021-07-02,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-06-25,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-06-18,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-06-16,Income,Refund,Refund,44.0
+2021-06-14,Income,Refund,Refund,91.62
+2021-06-11,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-06-08,Income,Interest Income,Ally Interest Paid,3.1
+2021-06-08,Income,Interest Income,Ally Interest Paid,0.37
+2021-06-04,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-05-28,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-05-23,Income,Cash Back Rewards,Cash Back Rewards,75.0
+2021-05-23,Income,Cash Back Rewards,Cash Back Rewards,144.86
+2021-05-21,Income,Paycheck - Source 2,Cash Back Rewards,1500.0
+2021-05-14,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-05-14,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-05-08,Income,Interest Income,Ally Interest Paid,0.34
+2021-05-08,Income,Interest Income,Ally Interest Paid,3.0
+2021-05-07,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-04-29,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-04-23,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-04-15,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-04-09,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-04-09,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-04-08,Income,Interest Income,Ally Interest Paid,3.1
+2021-04-08,Income,Interest Income,Ally Interest Paid,0.26
+2021-04-01,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-03-26,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-03-18,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-03-12,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-03-08,Income,Interest Income,Ally Interest Paid,0.28
+2021-03-08,Income,Interest Income,Ally Interest Paid,2.8
+2021-03-04,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-03-01,Income,Cash Back Rewards,Cash Back Rewards,28.91
+2021-02-26,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-02-18,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-02-16,Income,Cash Back Rewards,Cash Back Rewards,125.0
+2021-02-14,Income,Cash Back Rewards,Cash Back Rewards,94.4
+2021-02-12,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-02-08,Income,Interest Income,Ally Interest Paid,0.34
+2021-02-08,Income,Interest Income,Ally Interest Paid,3.09
+2021-02-04,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-01-29,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-01-21,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-01-19,Income,Income,eCheck Deposit,2400.0
+2021-01-15,Income,Paycheck - Source 2,Company - 2,1500.0
+2021-01-08,Income,Interest Income,Ally Interest Paid,0.42
+2021-01-08,Income,Interest Income,Ally Interest Paid,1.19
+2021-01-07,Income,Paycheck - Source 1,Company - 1,1500.0
+2021-01-04,Income,Cash Back Rewards,Cash Back Rewards,25.33
+2020-12-31,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-12-24,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-12-18,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-12-10,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-12-08,Income,Interest Income,Ally Interest Paid,0.5
+2020-12-08,Income,Interest Income,Ally Interest Paid,2.05
+2020-12-04,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-11-25,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-11-20,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-11-12,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-11-08,Income,Interest Income,Ally Interest Paid,3.2
+2020-11-08,Income,Interest Income,Ally Interest Paid,0.36
+2020-11-06,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-11-05,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-10-29,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-10-23,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-10-15,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-10-09,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-10-08,Income,Interest Income,Ally Interest Paid,0.32
+2020-10-08,Income,Interest Income,Ally Interest Paid,3.64
+2020-10-02,Income,Cash Back Rewards,Cash Back Rewards,31.31
+2020-10-01,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-09-27,Income,Cash Back Rewards,Cash Back Rewards,95.44
+2020-09-25,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-09-17,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-09-11,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-09-08,Income,Interest Income,Ally Interest Paid,0.37
+2020-09-08,Income,Interest Income,Ally Interest Paid,4.47
+2020-09-03,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-08-28,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-08-20,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-08-14,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-08-11,Income,Cash Back Rewards,Cash Back Rewards,225.0
+2020-08-08,Income,Interest Income,Ally Interest Paid,0.33
+2020-08-08,Income,Interest Income,Ally Interest Paid,5.57
+2020-08-06,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-07-31,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-07-23,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-07-17,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-07-09,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-07-08,Income,Interest Income,Ally Interest Paid,5.0
+2020-07-08,Income,Interest Income,Ally Interest Paid,0.46
+2020-07-03,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-07-03,Income,Cash Back Rewards,Cash Back Rewards,135.36
+2020-07-02,Income,Cash Back Rewards,Cash Back Rewards,49.91
+2020-06-25,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-06-19,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-06-11,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-06-08,Income,Interest Income,Ally Interest Paid,5.49
+2020-06-08,Income,Interest Income,Ally Interest Paid,0.31
+2020-06-05,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-05-28,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-05-22,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-05-14,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-05-08,Income,Interest Income,Ally Interest Paid,0.21
+2020-05-08,Income,Interest Income,Ally Interest Paid,8.78
+2020-05-08,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-05-06,Income,Refund,Refund,30.42
+2020-04-30,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-04-28,Income,Income,Poshmark Des Poshmark,120.28
+2020-04-24,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-04-16,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-04-10,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-04-08,Income,Interest Income,Ally Interest Paid,7.6
+2020-04-08,Income,Interest Income,Ally Interest Paid,0.12
+2020-04-02,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-03-27,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-03-19,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-03-19,Income,Refund,Refund,0.18
+2020-03-19,Income,Refund,Refund,0.35
+2020-03-13,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-03-13,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-03-08,Income,Interest Income,Ally Interest Paid,7.52
+2020-03-08,Income,Interest Income,Ally Interest Paid,0.19
+2020-03-05,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-02-28,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-02-27,Income,Cash Back Rewards,Cash Back Rewards,85.56
+2020-02-20,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-02-14,Income,Cash Back Rewards,Cash Back Rewards,96.86
+2020-02-14,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-02-08,Income,Interest Income,Ally Interest Paid,10.76
+2020-02-08,Income,Interest Income,Ally Interest Paid,0.15
+2020-02-06,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-01-31,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-01-23,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-01-17,Income,Paycheck - Source 2,Company - 2,1500.0
+2020-01-09,Income,Paycheck - Source 1,Company - 1,1500.0
+2020-01-08,Income,Interest Income,Ally Interest Paid,13.87
+2020-01-03,Income,Paycheck - Source 2,Company - 2,1500.0
