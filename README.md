@@ -119,12 +119,13 @@ This application provides a data pipeline that takes in all transaction data in 
 
 ## Documentation <a name="documentation"></a>
 
-  - Troubleshooting <a name="troubleshooting"></a> 
-    - If "no data" is displayed in an object, you can try refreshing the page to ensure connection loads. If after a few refreshes, the dashboard object still doesn't display correctly, you may have to reconfigure the object.
-    - For example: to configure "income vs. expense trend," ensure the correct data source is selected.
+### Troubleshooting <a name="troubleshooting"></a> 
+  - If "no data" is displayed in an object, you can try refreshing the page to ensure connection loads. If after a few refreshes, the dashboard object still doesn't display correctly, you may have to reconfigure the object.
+  - For example: to configure "income vs. expense trend," ensure the correct data source is selected.
+  ![income vs expense trend](images/inv_trend.png)
+  ![configuration](images/inv_config.png)
 
-
-  - Changelog
+### Changelog
 
 
 
