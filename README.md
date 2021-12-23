@@ -12,8 +12,6 @@ This application provides a data pipeline that takes in all transaction data in 
    * [Framework](#framework)
    * [Documentation](#documentation)
       
-
-
 ## Getting Started <a name="getting-started"></a>
 
 ## Prerequisite <a name="prerequisite"></a>
