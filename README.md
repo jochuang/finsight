@@ -21,22 +21,24 @@ This application provides a data pipeline that takes in all transaction data in 
   
 ## Set Up <a name="set-up"></a>
 <details>
-  <summary><b>1. Clone the Repo</b></summary>
+  <summary><b>1. Clone the repo</b></summary>
   <pre><code>
   git clone https://github.com/jochuang/finsight.git
   </code></pre>
 </details>
 
 <details>
-  <summary><b>2. Download Finance Data</b></summary>
-  Download "transactions.csv" from [Mint.com](https://mint.intuit.com/) and save it to your project folder. You can also use the sample data ("transactions.csv") provided in this repo.
+  <summary><b>2. Download finance data</b></summary>
+  Download "transactions.csv" from <a href="https://mint.intuit.com">Mint.com</a> and save it to your project folder. You can also use the sample data ("transactions.csv") provided in this repo.
   
   ![export transactions.csv](/images/export_transactions.PNG)
 </details>
 
 <details>
-  <summary><b>1. Upload data sources to Google Sheets</b></summary>
-   Go to Google Sheets Home > Click the file icon on the top-right corner > Click the Upload tab and drag csv file to the upload section > Upload all (4) csv files  
+  <summary><b>3. Upload data sources to Google Sheets</b></summary>
+  Go to <a href="https://docs.google.com/spreadsheets">Google Sheets</a> > Click the file icon on the top-right corner (next to the grid icon and AZ icon) > Click the Upload tab and drag csv file to the upload section > Upload the csv file  
+  
+  Repeat this process (4) times for each csv file to be uploaded. Google Sheet only allows file to be uploaded one at a time.
    
    Your Google Sheet Home should look something like this:  
    ![gsheets](images/gsheets_files.PNG)
