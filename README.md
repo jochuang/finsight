@@ -47,7 +47,7 @@ This application provides a data pipeline that takes in all transaction data in 
  
 <details>
   <summary><b>3. Make a copy of Data Studio Dashboard</b></summary>
-  Use the provided dashboard link > Click on the three-vertical-dot icon on the top-right corner > Click "Make a Copy" > Under New 
+  Use the provided dashboard <a href="https://datastudio.google.com/s/ntVQl5vcVHc"> link </a> > Click on the three-vertical-dot icon on the top-right corner > Click "Make a Copy" > Under New 
   Data Source > Select the (4) Data Sources that were connected > Click "Copy Report"  
   
   The pop-up window for "Copy this Report" should look something like this:
