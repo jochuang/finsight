@@ -1,6 +1,6 @@
 # FinSight
 
-FinSight is a finance dashboard that provides personal finance trends at a glance. It builds on top of personal finance app like Mint and allows customizable charts and graphs that tailor to your needs.
+FinSight is a finance dashboard that provides personal finance trends at a glance. It builds on top of personal finance application like Mint and allows customizable charts and graphs that tailor to your needs.
 This application provides a data pipeline that takes in all transaction data in a csv format, cleans and transforms the data, and displays data in a dashboard. The goal is to track transactions, visualize spending trends, and ultimately make more informed financial decisions.
 
 ### Table of Contents
@@ -18,19 +18,20 @@ This application provides a data pipeline that takes in all transaction data in 
    <pre><code>
    pip install -r requirements.txt
    </code></pre>
-   
-  Download "transactions.csv" from [Mint.com](https://mint.intuit.com/) and save it to your project folder.
-  <details><summary>Example</summary>
-  
-  ![export transactions.csv](/images/export_transactions.PNG)
-  </details>
   
 ## Set Up <a name="set-up"></a>
 <details>
   <summary><b>1. Clone the Repo</b></summary>
   <pre><code>
-  git clone
+  git clone https://github.com/jochuang/finsight.git
   </code></pre>
+</details>
+
+<details>
+  <summary><b>2. Download Finance Data</b></summary>
+  Download "transactions.csv" from [Mint.com](https://mint.intuit.com/) and save it to your project folder. You can also use the sample data ("transactions.csv") provided in this repo.
+  
+  ![export transactions.csv](/images/export_transactions.PNG)
 </details>
 
 <details>
