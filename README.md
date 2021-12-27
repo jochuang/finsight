@@ -5,7 +5,7 @@ This application provides a data pipeline that takes in all transaction data in 
 
 ### Table of Contents
    * [Getting Started](#getting-started)
-      * [Prerequisite](#prerequisite)
+      * [Prerequisites](#prerequisites)
       * [Set Up](#set-up)
       * [Run](#run)
    * [Usage](#usage)
@@ -14,7 +14,7 @@ This application provides a data pipeline that takes in all transaction data in 
       
 ## Getting Started <a name="getting-started"></a>
 
-## Prerequisite <a name="prerequisite"></a>
+## Prerequisites <a name="prerequisites"></a>
    <pre><code>
    pip install -r requirements.txt
    </code></pre>
@@ -26,6 +26,13 @@ This application provides a data pipeline that takes in all transaction data in 
   </details>
   
 ## Set Up <a name="set-up"></a>
+<details>
+  <summary><b>1. Clone the Repo</b></summary>
+  <pre><code>
+  git clone
+  </code></pre>
+</details>
+
 <details>
   <summary><b>1. Upload data sources to Google Sheets</b></summary>
    Go to Google Sheets Home > Click the file icon on the top-right corner > Click the Upload tab and drag csv file to the upload section > Upload all (4) csv files  
