@@ -5,7 +5,6 @@ This application provides a data pipeline that takes in all transaction data in 
 
 ### Table of Contents
    * [Getting Started](#getting-started)
-      * [Prerequisites](#prerequisites)
       * [Set Up](#set-up)
       * [Run](#run)
    * [Usage](#usage)
@@ -13,11 +12,6 @@ This application provides a data pipeline that takes in all transaction data in 
    * [Documentation](#documentation)
       
 ## Getting Started <a name="getting-started"></a>
-
-## Prerequisites <a name="prerequisites"></a>
-   <pre><code>
-   pip install -r requirements.txt
-   </code></pre>
   
 ## Set Up <a name="set-up"></a>
 <details>
@@ -123,7 +117,14 @@ This application provides a data pipeline that takes in all transaction data in 
 </details>
 
 ## Run <a name="run"></a>
-  Run ```python finsight-compiler.py``` in the terminal
+Download requirements  
+ <pre><code>
+ pip install -r requirements.txt
+ </code></pre>
+ Execute Python code
+ <pre><code>
+ python finsight-compiler.py
+ </code></pre>
   
 ## Usage <a name="usage"></a>
 
@@ -145,8 +146,8 @@ This application provides a data pipeline that takes in all transaction data in 
   ![configuration](images/inv_config.png)
   </details>
    -->
-### Changelog
-
+<!-- ### Changelog
+ -->
 
 
 
