@@ -46,7 +46,7 @@ This application provides a data pipeline that takes in all transaction data in 
 
 <details>
   <summary><b>4. Connect data sources to Google Data Studio</b></summary>
-  Go to <a href=https://datastudio.google.com>"Google Data Studio</a> > Click <b><i>Create</i></b> on the top-left corner > Click <b><i>Data source</i></b> (It may ask you to set up the account if you haven't previously) > Click <b><i>Google Sheets</i></b> > Select the Spreadsheet that you just uploaded > Click <b><i>Connect</i></b> on the top-right corner  
+  Go to <a href=https://datastudio.google.com>Google Data Studio</a> > Click <b><i>Create</i></b> on the top-left corner > Click <b><i>Data source</i></b> (It may ask you to set up the account if you haven't previously) > Click <b><i>Google Sheets</i></b> > Select the Spreadsheet that you just uploaded > Click <b><i>Connect</i></b> on the top-right corner  
   
   Repeat this process (4) times for each spreadsheet.  
   
