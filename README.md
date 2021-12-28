@@ -59,7 +59,7 @@ This application provides a data pipeline that takes in all transaction data in 
  
 <details>
   <summary><b>5. Make a copy of Data Studio Dashboard</b></summary>
-  Use the provided dashboard <a href="https://datastudio.google.com/s/ntVQl5vcVHc"> link </a> > Click on the three-vertical-dot icon on the top-right corner > Click <b><i>Make a Copy</i></b> > Under New Data Source, select the (4) data sources in order as shown in picture below > Click <b><i>Copy Report</i></b><br>
+  Use the provided dashboard <a href="https://datastudio.google.com/s/ntVQl5vcVHc"> link </a> > Click on the three-vertical-dot icon on the top-right corner > Click <b><i>Make a Copy</i></b> > Under New Data Source, select the (4) data sources in order as shown in picture below > Click <b><i>Copy Report</i></b><br></br>
   
   >Note: For Dashboard copy to function correctly, ensure the data sources are provided in order.  
   Google Data Studio is still in its infancy, and some of the functionality can be a bit finicky. You may have to play around with the configuration of the dashboard objects to get data to display correctly. See [Troubleshooting](#troubleshooting) section below for more information.
@@ -136,13 +136,13 @@ This application provides a data pipeline that takes in all transaction data in 
 
 ### Troubleshooting <a name="troubleshooting"></a> 
   - If "no data" is displayed in an object, you can try refreshing the page to ensure connection loads. If after a few refreshes, the dashboard object still doesn't display correctly, you may have to reconfigure the object.
-  <details><summary>Example</summary>
+<!--   <details><summary>Example</summary>
   To configure "income vs. expense trend," ensure the correct data source is selected.  
   
   ![income vs expense trend](images/inv_trend.png)
   ![configuration](images/inv_config.png)
   </details>
-  
+   -->
 ### Changelog
 
 
