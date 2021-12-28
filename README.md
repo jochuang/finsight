@@ -36,39 +36,44 @@ This application provides a data pipeline that takes in all transaction data in 
 
 <details>
   <summary><b>3. Upload data sources to Google Sheets</b></summary>
-  Go to <a href="https://docs.google.com/spreadsheets">Google Sheets</a> > Click the file icon on the top-right corner (next to the grid icon and AZ icon) > Click the Upload tab and drag csv file to the upload section > Upload the csv file  
+  Go to <a href="https://docs.google.com/spreadsheets">Google Sheets</a> > Click the <b><i>file icon</i></b> on the top-right corner (next to the grid icon and AZ icon) > Click <b><i>Upload</i></b> and drag csv file to the upload section > Upload csv file one at a time
   
-  Repeat this process (4) times for each csv file to be uploaded. Google Sheet only allows file to be uploaded one at a time.
+  Repeat this process (4) times for each csv file. 
    
    Your Google Sheet Home should look something like this:  
    ![gsheets](images/gsheets_files.PNG)
 </details>
 
 <details>
-  <summary><b>2. Connect data sources to Google Data Studio</b></summary>
-  Go to Google Data Studio > Click create on the top-left corner > Click Google Sheets > Select the Spreadsheet that you just uploaded > Click Connect  
+  <summary><b>4. Connect data sources to Google Data Studio</b></summary>
+  Go to <a href=https://datastudio.google.com>"Google Data Studio</a> > Click <b><i>Create</i></b> on the top-left corner > Click <b><i>Data source</i></b> (It may ask you to set up the account if you haven't previously) > Click <b><i>Google Sheets</i></b> > Select the Spreadsheet that you just uploaded > Click <b><i>Connect</i></b> on the top-right corner  
   
-  Do this (4) times for each of the spreadsheet.  
+  Repeat this process (4) times for each spreadsheet.  
+  
+  >Note: please make sure the name of the data sources are exactly identical as shown here. If it isn't, you can rename it  
   
   Your Data Studio data sources should look something like this:  
   ![gstudio](images/gstudio_files.PNG)  
-  >Note: please make sure the name of the data sources are exactly identical as shown here. If it isn't, you can rename it
+  
 </details>
  
 <details>
-  <summary><b>3. Make a copy of Data Studio Dashboard</b></summary>
-  Use the provided dashboard <a href="https://datastudio.google.com/s/ntVQl5vcVHc"> link </a> > Click on the three-vertical-dot icon on the top-right corner > Click "Make a Copy" > Under New 
-  Data Source > Select the (4) Data Sources that were connected > Click "Copy Report"  
+  <summary><b>5. Make a copy of Data Studio Dashboard</b></summary>
+  Use the provided dashboard <a href="https://datastudio.google.com/s/ntVQl5vcVHc"> link </a> > Click on the three-vertical-dot icon on the top-right corner > Click <b><i>Make a Copy</i></b> > Under New Data Source, select the (4) data sources in order as shown in picture below > Click <b><i>Copy Report</i></b><br>
+  
+  >Note: For Dashboard copy to function correctly, ensure the data sources are provided in order.  
+  Google Data Studio is still in its infancy, and some of the functionality can be a bit finicky. You may have to play around with the configuration of the dashboard objects to get data to display correctly. See [Troubleshooting](#troubleshooting) section below for more information.
   
   The pop-up window for "Copy this Report" should look something like this:
   ![gstudio](images/gstudio_copy_report.PNG)  
-  >Note: Google Data Studio is still in its infancy, and some of the functionality can be a bit finicky. You may have to play around with the configuration of the dashboard objects to get data to display correctly. See [Troubleshooting](#troubleshooting) section below for more information.
 </details>
   
 <details>
-  <summary><b>4. Set up data pipeline via API (automate csv file upload to Google Sheets)</b></summary>
+  <summary><b>6. Set up data pipeline via API (automate csv file upload to Google Sheets)</b></summary>
   To interact with Google Sheets API, you will need to set up authentication on Google Cloud Platform. Since we want to automate the data upload pipeline, we will be accessing the spreadsheet on behalf of a bot.  
-  For this, just follow the instructions for <a href="https://docs.gspread.org/en/latest/oauth2.html#enable-api-access-for-a-project">using a service account</a>. This <a href="https://medium.com/craftsmenltd/from-csv-to-google-sheet-using-python-ef097cb014f9">medium article</a> also provides step-by-step instructions for setting up authentication.  
+  For this, just follow the instructions for <a href="https://docs.gspread.org/en/latest/oauth2.html#enable-api-access-for-a-project">using a service account</a>. 
+  
+<!--   This <a href="https://medium.com/craftsmenltd/from-csv-to-google-sheet-using-python-ef097cb014f9">medium article</a> also provides step-by-step instructions for setting up authentication.   -->
   
   Once service account credential is created, it will automatically create a JSON file that looks like this:  
   <pre><code>
@@ -94,8 +99,10 @@ This application provides a data pipeline that takes in all transaction data in 
 </details>
 
 <details>
-  <summary><b>5. Define</b> <code>category_dict.py</code></summary>
-  <code>category_dict.py</code> defines a dictionary of key (subcategory) to value (category) pairs. For example:
+  <summary><b>7. Define</b> <code>category_dict.py</code></summary>
+  <br>
+  <code>category_dict.py</code> defines a dictionary of key (subcategory) to value (category) pairs. You may want to modify this file if you have new subcategories or if you have a different categorization system. If you are utilizing the sample data provided, you do not need to modify this file. Example dictionary below:
+
   <pre><code>
   category_dict = {
     'Groceries':'Living Expense',
