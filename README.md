@@ -85,17 +85,19 @@ This application provides a data pipeline that takes in all transaction data in 
     "client_email": "473000000000-yoursisdifferent@developer.gserviceaccount.com",
     "client_id": "473 … hd.apps.googleusercontent.com",
       ...}
-  </code></pre>
-
-  Keep in mind:  
+  </code></pre>  
+  
+  Next steps:
   <ul>
-    <li>Share spreadsheet access with the client email (from the credentials.json file) with edit permission</li>
-    <li>Rename JSON file to <code>service_account.json</code> and store it in the desired path. For windows, it's recommended to store it in <code>%APPDATA%\gspread\service_account.json</code></li>
+    <li><b>This step is very important!</b> Go to <a href="https://docs.google.com/spreadsheets">Google Sheets</a>, open spreadsheet and share <b><i>Editor</i></b> permission with <code>client_email</code> (client_email can be found in the JSON file). Repeat this step for all (4) spreadsheets
+    <li>Rename JSON file to <code>service_account.json</code> and store it in a desired path. For windows, it's recommended to store it in <code>%APPDATA%\gspread\service_account.json</code></li>
     <li>Update <code>finsight-compiler.py</code> to reference where the <code>service_account.json</code> is stored</li>
   </ul>
   <pre><code>
     credentials = ServiceAccountCredentials.from_json_keyfile_name('service_account.json',scope) # update JSON file path
   </code></pre>
+  
+  > Note: Remember to share spreadsheet Editor access with the client email, otherwise you will get a <code>gspread.exceptions.SpreadsheetNotFound</code> exception when executing the python file.
 </details>
 
 <details>
