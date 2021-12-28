@@ -101,7 +101,7 @@ This application provides a data pipeline that takes in all transaction data in 
 </details>
 
 <details>
-  <summary><b>7. Define</b> <code>category_dict.py</code></summary>
+  <summary><b>7. (Optional) Define</b> <code>category_dict.py</code></summary>
   <br>
   <code>category_dict.py</code> defines a dictionary of key (subcategory) to value (category) pairs. You may want to modify this file if you have new subcategories or if you have a different categorization system. If you are utilizing the sample data provided, you do not need to modify this file. Example dictionary below:
 
